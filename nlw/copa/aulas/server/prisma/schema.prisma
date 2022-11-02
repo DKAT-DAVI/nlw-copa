@@ -5,6 +5,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// Generate ERD
 generator erd {
   provider = "prisma-erd-generator"
 }
@@ -14,7 +15,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
- // criacao de um model (referente a tabela)
+ // Creating a model
 model Pool {
   id String @id @default(cuid())
   title String 
