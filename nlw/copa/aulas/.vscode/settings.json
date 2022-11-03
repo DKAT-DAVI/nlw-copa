@@ -1,0 +1,8 @@
+{
+    "workbench.settings.editor": "ui",
+    "workbench.settings.useSplitJSON": false,
+    "workbench.settings.openDefaultSettings": true,
+    "editor.codeActionsOnSave": {
+    
+    }
+}
