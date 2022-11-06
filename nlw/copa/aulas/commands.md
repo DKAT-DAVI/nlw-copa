@@ -65,6 +65,11 @@ npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
 ```
 npx prisma generator
 ```
+## Creating a seed on DB
+```
+
+```
+
 ## Security settings
 **Installing cors**
 ```

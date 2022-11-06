@@ -22,7 +22,7 @@ async function bootstrap() {
         origin: true,
     })
 
-    // First rote to back-end
+    // First route to back-end
 
     // http://localhost:3333/pools/count
     fastify.get('/pools/count', async() => {
